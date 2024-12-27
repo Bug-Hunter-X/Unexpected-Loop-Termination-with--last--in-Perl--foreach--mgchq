@@ -1,0 +1,1 @@
+my @array = (1 .. 10); foreach my $i (@array) { if ($i == 5) { next; } print "$i\n"; } #Alternative solution using a while loop my @array = (1 .. 10); my $i = 0; while ($i < @array) { if ($array[$i] == 5) { $i++; next; } print "$array[$i]\n"; $i++; }
