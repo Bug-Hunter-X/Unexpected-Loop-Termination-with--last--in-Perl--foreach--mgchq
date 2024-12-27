@@ -1,0 +1,1 @@
+This repository demonstrates an unusual behavior of the 'last' statement in Perl's 'foreach' loop. The example shows how 'last' exits the entire loop instead of just the conditional statement. The solution provides an alternative using a 'next' statement or a more controlled loop structure for clarity.
